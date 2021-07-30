@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>RECOGNISE MY FAMILY :) </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+  <div class="container">
+      <center>
+          <h3 class="btn btn-default heading"> RECOGNISE MY FAMILY</h3>
+          <br><br>
+          <p style="font-size :22px;">Model Is Tranied To Identify The Following Objects</p>
+          <b class="name_of_objects">
+              Mother
+              <hr>
+              Father
+              <hr>
+              Brother
+              <hr>
+              Sister
+              <hr>
+          </b>
+          <label>Webcam View</label>
+          <div id="camera"></div>
+          <br>
+          <div id="result"></div>
+          <button class="btn btn-info" onclick="take_snapshot();" > Capture Image </button>
+          <br> <br>
+          <button class="btn btn-success" onclick="check();" > Identify Image </button>
+      </center>
+      </div>
+      <script src="main.js"></script>
+      </body>
+</html>
+      

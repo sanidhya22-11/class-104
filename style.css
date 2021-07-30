@@ -1,0 +1,14 @@
+body{
+    color:aquamarine;
+    background:burlywood;
+}
+.heading{
+    widht:80%;
+    font-size:22px;
+}
+#camera{
+    border:2px dashed blue;
+     width:350px;
+     height:300px;
+     
+}
